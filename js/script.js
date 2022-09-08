@@ -102,7 +102,7 @@ MAKE FAQ
 
             $("html, body").animate({
                     scrollTop: $(hash).offset().top
-                },800,
+                },200,
                 function(){
                     window.location.hash = hash;
                 }
